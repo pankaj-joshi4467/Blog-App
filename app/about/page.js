@@ -20,15 +20,15 @@ export default function About() {
             <div className="w-full md:w-2/3 flex flex-col justify-center ">
               <h1 className="text-4xl font-bold text-gray-800 dark:text-white mb-4">About Me</h1>
               <p className="text-gray-600 dark:text-gray-50 text-lg mb-4">
-                Hi, I’m Pankaj Joshi 👋 – a passionate Full Stack Developer and tech enthusiast. I love building modern, responsive, and user-friendly web applications. Through this blog, I share my thoughts, experiences, and learnings about Web Development, JavaScript, React.js, Next.js, and the latest trends in technology.
+                Hi, I am Pankaj Joshi 👋  a passionate Full Stack Developer and tech enthusiast. I love building modern, responsive, and user-friendly web applications. Through this blog, I share my thoughts, experiences, and learnings about Web Development, JavaScript, React.js, Next.js, and the latest trends in technology.
 
 I believe learning is a never-ending journey 🚀, and writing blogs helps me not only document my knowledge but also connect with people who share the same passion for coding and creativity.
 
-When I’m not coding, you’ll probably find me exploring new technologies, improving my problem-solving skills, or enjoying some good vegetarian food 🍲.
+When I&apos;m not coding, you&apos;ll probably find me exploring new technologies, improving my problem-solving skills, or enjoying some good vegetarian food 🍲.
 
 Thanks for stopping by! I hope my blogs inspire, teach, or simply help you in your coding journey. 💻✨</p>
               <p className="text-gray-600 dark:text-gray-50 text-lg">
-                Whether you're just starting out or looking to sharpen your skills, you'll find a variety of resources and insights here. Let's explore the world of programming together!
+                Whether you&apos;re just starting out or looking to sharpen your skills, you&apos;ll find a variety of resources and insights here. Let&apos;s explore the world of programming together!
               </p>
             </div>
           </div>
@@ -38,9 +38,9 @@ Thanks for stopping by! I hope my blogs inspire, teach, or simply help you in yo
       <section className="py-16 bg-gray-50 dark:bg-gray-800 dark:text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-extrabold text-gray-900 dark:text-white">Pankaj's Journey as a Coder</h2>
+            <h2 className="text-3xl font-extrabold text-gray-900 dark:text-white">Pankaj&apos;s Journey as a Coder</h2>
             <p className="mt-4 text-lg text-gray-600 dark:text-gray-50">
-              From curious beginner to seasoned developer, here's how Pankaj navigated the world of programming.
+              From curious beginner to seasoned developer, here how Pankaj navigated the world of programming.
             </p>
           </div>
           <div className="space-y-12">
@@ -51,19 +51,19 @@ Thanks for stopping by! I hope my blogs inspire, teach, or simply help you in yo
               <div className="md:w-2/3 md:pl-8 mt-8 md:mt-0">
                 <h3 className="text-2xl font-bold text-gray-800 dark:text-white dark:text-white">The Spark of Curiosity</h3>
                 <p className="mt-4 text-gray-600 dark:text-gray-50">
-                  Pankaj’s coding journey began in high school when he stumbled upon his first programming language—Python. What started as a simple curiosity quickly turned into a passion, as Pankaj spent countless hours experimenting with code, building small projects, and learning the fundamentals of software development.
+                  Pankaj&apos;s coding journey began in high school when he stumbled upon his first programming language—Python. What started as a simple curiosity quickly turned into a passion, as Pankaj spent countless hours experimenting with code, building small projects, and learning the fundamentals of software development.
                 </p>
               </div>
             </div>
 
             <div className="flex flex-col md:flex-row-reverse items-center">
               <div className="md:w-1/3">
-                <img src="/dive.png" alt="Harry learning new skills" className="w-full rounded-lg shadow-lg" />
+                <img src="/dive.png" alt=" learning new skills" className="w-full rounded-lg shadow-lg" />
               </div>
               <div className="md:w-2/3 md:pr-8 mt-8 md:mt-0">
                 <h3 className="text-2xl font-bold text-gray-800 dark:text-white">Diving Deeper</h3>
                 <p className="mt-4 text-gray-600 dark:text-gray-50">
-                  After mastering the basics, Pankaj’s thirst for knowledge grew. He began exploring more complex topics such as data structures, algorithms, and web development. Enrolling in online courses and attending coding bootcamps, Pankaj quickly expanded his skill set, taking on freelance projects to apply his knowledge in real-world scenarios.
+                  After mastering the basics, Pankaj&apos;s thirst for knowledge grew. He began exploring more complex topics such as data structures, algorithms, and web development. Enrolling in online courses and attending coding bootcamps, Pankaj quickly expanded his skill set, taking on freelance projects to apply his knowledge in real-world scenarios.
                 </p>
               </div>
             </div>
@@ -77,7 +77,7 @@ Thanks for stopping by! I hope my blogs inspire, teach, or simply help you in yo
                 <p className="mt-4 text-gray-600 dark:text-gray-50">
                  I believe challenges are not roadblocks, but opportunities to grow. Every problem I face pushes me to think differently, learn something new, and become better than yesterday.
 
-Whether it’s debugging a tough error, learning a new technology, or working on a complex project, I enjoy breaking down the challenge into smaller steps and finding the best possible solution.
+Whether its debugging a tough error, learning a new technology, or working on a complex project, I enjoy breaking down the challenge into smaller steps and finding the best possible solution.
 
 For me, challenges fuel creativity and innovation 🔥. They remind me that growth begins when we step outside our comfort zone. </p>
               </div>
@@ -94,7 +94,7 @@ For me, challenges fuel creativity and innovation 🔥. They remind me that grow
 
 Whenever I solve a problem or discover something new, I make sure to write about it so that someone else facing the same challenge can find help more easily.
 
-Helping others motivates me to keep learning and improving. It feels great to know that even a small blog post or a simple tip can make someone’s coding journey smoother. 💻✨</p>
+Helping others motivates me to keep learning and improving. It feels great to know that even a small blog post or a simple tip can make someone&apos;s coding journey smoother. 💻✨</p>
               </div>
             </div>
           </div>
