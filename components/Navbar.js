@@ -2,6 +2,8 @@
 import React from 'react'
 import Link from 'next/link';
 import { Button } from "@/components/ui/button"
+import { useRouter } from "next/navigation";
+
 import {
     Sheet,
     SheetContent,
@@ -36,6 +38,17 @@ const Navbar = () => {
      
     }, [pathname])
 
+     const router = useRouter();  
+
+
+      const handleLogin = () => {
+    router.push("/login");   // login page open karega
+  };
+
+     const handleSignup = () => {
+    router.push("/sign");   // login page open karega
+  };
+
 
 
     useEffect(() => {
@@ -43,6 +56,8 @@ const Navbar = () => {
        setProgress(0)
       }, 50);
     }, [])
+
+    
     
     
     return (
@@ -54,7 +69,7 @@ const Navbar = () => {
       />
             <div className="container mx-auto flex justify-between items-center">
                 <Link href={"/"}><div className="text-lg font-bold">
-                    HarryBlog
+                    PankajBlog
                 </div></Link>
                 <div className="hidden md:flex space-x-4 items-center">
                     <Link href="/" className="hover:scale-105 hover:font-semibold transition-transform duration-300"> Home
@@ -69,8 +84,8 @@ const Navbar = () => {
                         Contact
                     </Link>
                     <div className='flex items-center'>
-                        <Button className="mx-1" variant="outline">Login</Button>
-                        <Button className="mx-1" variant="outline">Signup</Button>
+                        <Button onClick={handleLogin} className="mx-1" variant="outline">Login</Button>
+                        <Button onClick={handleSignup} className="mx-1" variant="outline">Signup</Button>
                         <ModeToggle />
                     </div>
                 </div>
@@ -87,7 +102,7 @@ const Navbar = () => {
                         </SheetTrigger>
                         <SheetContent>
                             <SheetHeader>
-                                <SheetTitle className="font-bold my-4">HarryBlog</SheetTitle>
+                                <SheetTitle className="font-bold my-4">PankajBlog</SheetTitle>
                                 <SheetDescription>
                                     <div className="flex flex-col gap-6">
                                         <Link href="/"> Home
@@ -101,11 +116,13 @@ const Navbar = () => {
                                         <Link href="/contact">
                                             Contact
                                         </Link>
+                                     
                                         <div>
-                                            <Button className="mx-1 text-xs" variant="outline">Login</Button>
-                                            <Button className="mx-1 text-xs" variant="outline">Signup</Button>
+                                            <Button onClick={handleLogin} className="mx-1 text-xs" variant="outline"  >Login</Button>
+                                            <Button onClick={handleSignup} className="mx-1 text-xs" variant="outline">Signup</Button>
+                                            </div>
 
-                                        </div>
+                                        
 
                                     </div>
                                 </SheetDescription>
