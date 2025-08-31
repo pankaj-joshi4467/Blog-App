@@ -43,7 +43,7 @@ const page = () => {
         </button>
 
         <p className="text-gray-500 text-sm mt-3 mb-11">
-          Don’t have an account?{" "}
+          Dont have an account?{" "}
           <a className="text-indigo-500" href="#">Sign up</a>
         </p>
       </form>
